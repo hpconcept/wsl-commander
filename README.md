@@ -91,7 +91,7 @@ Or download the installer from the [usbipd-win releases page](https://github.com
 
 ### Option 1 — Pre-built Executable (no Python required)
 
-1. Download the latest release from the [GitHub Releases](https://github.com/hpconcept/WSLCommander/releases) page.
+1. Download the latest release from the [GitHub Releases](https://github.com/hpconcept/wsl-commander/releases) page.
 2. Extract the zip archive.
 3. Run `WSLCommander.exe` from the extracted folder.
 
@@ -104,8 +104,8 @@ Or download the installer from the [usbipd-win releases page](https://github.com
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/hpconcept/WSLCommander.git
-cd WSLCommander
+git clone https://github.com/hpconcept/wsl-commander.git
+cd wsl-commander
 ```
 
 #### 2. Create a virtual environment (recommended)
@@ -152,7 +152,7 @@ The output will be placed in `dist\WSLCommander\WSLCommander.exe`.
 ## Project Structure
 
 ```
-WSLCommander/
+wsl-commander/
 ├── app/
 │   ├── main_window.py        # Main application window
 │   ├── models/               # Data models (Distro, Container, UsbDevice)
